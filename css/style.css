@@ -45,9 +45,14 @@ a {
 }
 
 a:hover {
-    color: khaki;
+    color: #f0e68c;
 }
 
 .list_social_media li {
     padding-bottom: 15px;
+}
+
+#logo {
+    width: 5%;
+    margin: 20px;
 }
