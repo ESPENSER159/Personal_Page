@@ -5,6 +5,7 @@
 }
 
 body {
+    color:#ccd6f6;
     background-color: #0a192f;
     font-family: sans-serif, Arial;
 }
@@ -95,4 +96,37 @@ nav {
 
 .li_Style:hover {
     background-color: #f0e68c1a;
+}
+
+main {
+    width: 100%;
+    padding: 0px 350px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 150px 0px;
+}
+
+h1 {
+    color: khaki;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0px 0px 30px 4px;
+}
+
+h2 {
+    margin: 0px;
+    font-size: 80px;
+    font-family: sans-serif, Arial;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.1;
 }
