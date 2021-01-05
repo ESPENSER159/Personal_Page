@@ -6,7 +6,18 @@
 
 body {
     background-color: #0a192f;
+    font-family: sans-serif, Arial;
+}
 
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0px;
+    position: fixed;
+    z-index: 11;
+    padding: 0px 40px;
 }
 
 .content_social_media {
@@ -53,6 +64,35 @@ a:hover {
 }
 
 #logo {
-    width: 5%;
-    margin: 20px;
+    width: 50px;
+    margin: 0px 60px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    color: #ccd6f6;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 20px;
+}
+
+#DivNav ol{
+    display: flex;
+    list-style: none;
+    margin-right: 100px;
+}
+
+.li_Style {
+    padding: 10px 30px;
+    margin: auto 10px;
+    border: 2px solid khaki;
+    border-radius: 10px;
+}
+
+.li_Style:hover {
+    background-color: #f0e68c1a;
 }
