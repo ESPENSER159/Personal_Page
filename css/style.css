@@ -100,22 +100,27 @@ nav {
 
 main {
     width: 100%;
-    padding: 0px 15%;
+    margin: 0px auto;
+    max-width: 1600px;
+    min-height: 100vh;
+    padding: 0px 150px;
 }
 
 section {
+    margin: 0px auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: flex-start;
     min-height: 100vh;
     padding: 150px 0px;
+    max-width: 1000px;
 }
 
 h1 {
     color: khaki;
     font-family: 'Roboto Mono', monospace;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
     margin: 0px 0px 30px 4px;
 }
@@ -172,7 +177,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .about_me {
     font-family: 'Roboto Mono', monospace;
-    font-size: 25px;
+    font-size: 20px;
     color: #8892b0;
 }
 
@@ -205,7 +210,7 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     top: 100px;
     left: 0px;
-    width: 100%;
+    width: 90%;
     height: 40%;
     border-radius: 10px;
 }
