@@ -471,3 +471,16 @@ span {
     align-items: center;
     padding: 10px;
 }
+
+#contact {
+    min-height: 0;
+    align-items: center;
+}
+
+#contact h1 {
+    margin: 10px 0px;
+}
+
+#contact p {
+    margin: 10px 0px;
+}
