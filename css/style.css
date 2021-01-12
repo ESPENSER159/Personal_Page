@@ -92,10 +92,12 @@ nav {
     margin: auto 10px;
     border: 2px solid khaki;
     border-radius: 10px;
+    background-color: #0a192f;
+    transition: 0.7s;
 }
 
 .li_Style:hover {
-    background-color: #f0e68c1a;
+    background-color: #49462f;
 }
 
 main {
